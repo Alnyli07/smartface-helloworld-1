@@ -1,0 +1,109 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "3cf2-3cca-6e66-ecaf",
+			"initialized": true,
+			"props": {
+				"children": [
+					"f351-8558-564b-dc58",
+					"02eb-0c9e-f443-3a7c",
+					"3862-8fb5-d1f7-ed87",
+					"d089-c357-d539-371f"
+				],
+				"name": "page2",
+				"parent": null,
+				"safeAreaView": true
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaView": true
+			},
+			"version": "0.13.0"
+		},
+		{
+			"className": ".statusBar #page2-statusBar",
+			"id": "f351-8558-564b-dc58",
+			"props": {
+				"backgroundColor": "rgba( 74, 144, 226, 1 )",
+				"barStyle": "dark-content",
+				"children": [],
+				"name": "statusBar",
+				"parent": "3cf2-3cca-6e66-ecaf"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"backgroundColor": "rgba( 74, 144, 226, 1 )",
+				"barStyle": "dark-content"
+			}
+		},
+		{
+			"className": ".headerBar",
+			"id": "02eb-0c9e-f443-3a7c",
+			"props": {
+				"children": [],
+				"name": "headerBar",
+				"parent": "3cf2-3cca-6e66-ecaf",
+				"title": "Page2"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Page2"
+			}
+		},
+		{
+			"className": ".view #page1-view1",
+			"id": "3862-8fb5-d1f7-ed87",
+			"props": {
+				"children": [
+					"307f-64f3-bb44-3394"
+				],
+				"name": "view1",
+				"parent": "3cf2-3cca-6e66-ecaf"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".text #page1-text2",
+			"id": "307f-64f3-bb44-3394",
+			"props": {
+				"children": [],
+				"name": "text2",
+				"parent": "3862-8fb5-d1f7-ed87",
+				"text": "Page2"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Page2"
+			}
+		},
+		{
+			"className": ".pressable #page1-pressable1",
+			"id": "d089-c357-d539-371f",
+			"props": {
+				"children": [
+					"ed62-0cc4-a72b-1a24"
+				],
+				"name": "pressable1",
+				"parent": "3cf2-3cca-6e66-ecaf"
+			},
+			"type": "Pressable",
+			"userProps": {}
+		},
+		{
+			"className": ".text #page1-text1",
+			"id": "ed62-0cc4-a72b-1a24",
+			"props": {
+				"children": [],
+				"name": "text1",
+				"parent": "d089-c357-d539-371f",
+				"text": "Modal Page"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Modal Page"
+			}
+		}
+	]
+}
