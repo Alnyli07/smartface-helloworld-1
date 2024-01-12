@@ -1,0 +1,38 @@
+{
+	"components": [
+		{
+			"className": ".pressable .button ",
+			"id": "17d597d2-bffa-4023-8402-f09a4e132e9c",
+			"oldName": "button123",
+			"props": {
+				"children": [
+					"10789cc2-0918-4f8a-8565-88599b64d91d"
+				],
+				"name": "button",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Pressable",
+			"userProps": {
+				"left": 89.16,
+				"top": 92.77
+			}
+		},
+		{
+			"className": ".text .button-text1",
+			"id": "10789cc2-0918-4f8a-8565-88599b64d91d",
+			"props": {
+				"children": [],
+				"name": "text7",
+				"parent": "17d597d2-bffa-4023-8402-f09a4e132e9c",
+				"text": "Welcome Button"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Welcome Button"
+			}
+		}
+	]
+}
